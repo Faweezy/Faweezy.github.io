@@ -1,10 +1,10 @@
 body{
-    background-color: black;
+    background-color: rgb(192, 192, 192);
 }
 
 .jumbotron{
     height: 400px;
-    background: url(images/pietro-jeng-n6B49lTx7NM-unsplash.jpg) center center / cover no-repeat;
+    background: url(images/nasa-Q1p7bh3SHj8-unsplash.jpg) center center / cover no-repeat;
     
     
 }
@@ -34,6 +34,7 @@ body{
 
 p{
     font-size: 1.5rem;
+    color: black;
 }
 
 @media (max-width: 1000px) {
@@ -53,8 +54,13 @@ p{
 @media (max-width: 1000px) {
     #pText{
         font-size: 1.2rem;
+        
     }
 
+}
+
+#pText{
+    line-height: 2.0;
 }
 
 .iconLarge{
@@ -69,6 +75,8 @@ p{
     height: 80px;
 }
 
-/* #logos{
-    background-size: contain;   
-} */
+.gridPics{
+    margin-top: 50px;
+}
+
+
