@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(222, 222, 222);
+    font-family: Montserrat;
+}
+
+.jumbotron{
+    height: 400px;
+    background: url(images/arian-darvishi-wh-RPfR_3_M-unsplash.jpg) center center / cover no-repeat;
+    
+}
+
+.display-4{
+    color: white;
+    
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(194, 0, 0);
+}
+
+#mainNavbar .navbar-brand{
+    color: rgb(194, 0, 0);
+    
+}
+
+p{
+    font-size: 1.5rem;
+    color: #4f4f4f;
+}
+
+h2{
+    color: #0f8efc;
+}
+
+hr{
+    color: rgb(25, 25 ,25);
+
+}
+
+#goalBtn {
+    background-color: #0f8efc;
+    border-color: #0f8efc#0f8efc;
+}
+
+@media (max-width: 1000px) {
+    #hiHeading{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #h2Heading{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #pText{
+        font-size: 1.2rem;
+        
+    }
+
+}
+
+#pText{
+    line-height: 2.0;
+}
+
+.iconLarge{
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.iconSmall{
+    background-size: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+.gridPics{
+    margin-top: 50px;
+}
+
+#submitButton{
+    background-color:#0f8efc;
+    border-color: #0f8efc;
+}
+
+#pleaseRead{
+    color: rgb(194, 0, 0);
+    font-size: 36px;
+}
+
+#quoteText{
+    color: #0f8efc;
+}
+
