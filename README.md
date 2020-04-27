@@ -1,3 +1,7 @@
 # Faweezy.github.io
 
-This is my portfolio website.
+All of the above folders and documents are for my protfolio website which we submitted months ago.
+
+EXCEPT the folder "All my work"
+
+
