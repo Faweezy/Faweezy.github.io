@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Solution</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<label for = "first">First Name</label>
+		<input id = "first"type="text" name="first" placeholder = "John" required>
+		<label for = "last">Last Name</label>
+		<input id = "last"type="text" name="last" placeholder = "Smith" required>
+
+	<div>
+		
+	</div>
+
+	
+		<label for = "Male"> Male </label>
+		<input id = "Male" type="radio" name="Gender" value = "Male">
+		<label for = "Female"> Female </label>
+		<input id = "Female" type="radio" name="Gender" value ="Female">
+		<label for = "Other"> Other </label>
+		<input id = "Other" type="radio" name="Gender" value = "Other">
+	
+	<div>
+		<label for = "Email"> Email: </label>
+		<input id = "Email" type="email" name="Email" placeholder = "something@gmail.com" required>
+		<label for = "Password"> Password: </label>
+		<input id = "Password" type="password" name="Password">
+		<input pattern=".{5,10}" required title ="5 to 10 characters">
+	</div>
+
+	
+
+
+	<div>
+		<label >
+			Birthday:
+			<select name ="Day">
+				<option>Day</option>
+				<option>1</option>
+				<option>27</option>
+				<option>31</option>
+			</select>
+
+			<select name ="Month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Jul</option>
+				<option>Dec</option>
+			</select>
+
+			<select name ="Year">
+				<option>Year</option>
+				<option>2019</option>
+				<option>1997</option>
+				<option>1950</option>
+			</select>
+		</label>	
+	</div>
+
+
+	<div>
+		<label for = "agreed">I agree to the terms and conditions</label>
+		<input id = "agreed"type="checkbox" name="agreed" required>		
+	</div>
+
+	<input type="submit" >
+	</form>
+
+
+</body>
+</html>

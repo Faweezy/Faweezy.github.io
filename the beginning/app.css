@@ -1,0 +1,31 @@
+h1{
+	color: red;
+
+	border: 5px dotted purple;
+}
+
+/*borders:
+	width
+	color
+	style*/
+
+/*border-color:purple;
+	border-width: 5px;					EXAMPLE
+	border-style: solid;*/
+
+li{
+	color: green;
+}
+
+h4{
+	background: rgb(255,100,80);
+}
+
+body{
+
+	background:pink;
+
+	/*background:url(https://previews.123rf.com/images/photoplotnikov/photoplotnikov1802/photoplotnikov180200010/95136303-wood-grain-texture-seamless-wooden-pattern-abstract-line-background-vector-illustration.jpg);
+	backround-repeat:no-repeat; 	/*no image tiling or repeats*/
+	/*background-size:cover;*/			/*covers the entire backround with the image*/
+}
